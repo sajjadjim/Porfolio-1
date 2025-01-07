@@ -5,7 +5,6 @@
     margin: 0px;
     padding: 0px;
 }
-
 .header_picture {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat, no-repeat;
@@ -13,8 +12,8 @@
     background-size: 45% auto, 100px 550px;
     /* border: 2px solid black; */
     border-collapse: collapse;
+    background-color: rgb(255, 248, 243);
 }
-
 .navigration {
     display: flex;
     align-items: center;
@@ -24,19 +23,16 @@
     padding: 0px;
 
 }
-
 .nav_tittle {
     font-family: Open Sans;
     font-size: 35px;
     font-weight: 800;
     text-align: left;
 }
-
 .navigration ul li {
     list-style: none;
     margin: 0px 20px;
 }
-
 .navigration li a {
     text-decoration: none;
     color: black;
@@ -62,11 +58,11 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    padding: 0px 15px;
+    /* padding: 0px 12px; */
     background-color: #FD6E0A;
     font-weight: bold;
     color: white;
-    padding: 14px 15px;
+    padding: 10px 15px;
     font-size: 20px;
     border: none;
 }
@@ -98,7 +94,6 @@
 .banner_picture {
     width: 584px;
     height: 586px;
-    /* border: 10px solid black;  */
     border-collapse: collapse;
 }
 
@@ -113,22 +108,64 @@
     align-items: center;
     justify-content: space-between;
     margin: 0px 0px 0px 150px;
-    /* border: 10px solid black; */
 }
 
 .btn_contact {
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    -ms-border-radius:5px;
-    -o-border-radius:5px;
-    padding: 0px 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
     background-color: #ffffff;
-    /*font-weight: bold;
-    */color: #FD6E0A;
-    padding: 14px 28px;
+    color: #FD6E0A;
+    padding: 10px 28px;
     font-size: 20px;
     border: none;
     border: 1px solid #FD6E0A;
-    border-radius:5px;
+    border-radius: 5px;
     margin-left: 35px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section start from here */
+.about_context {
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+.about_padding {
+    /* border: 10px solid black; */
+    /* padding: 80px  70px; */
+    background-color: #ffffff;
+    border: 1px solid rgb(117, 117, 117);
+    padding: 0px 60px;
+}
+
+.about_tittle {
+    margin-bottom: 30px;
+}
+
+.about_text {
+    color: rgb(117, 117, 117);
+    margin-bottom: 30px;
+}
+
+.item_description {
+    font-weight: 600;
+}
+
+#about_items1 {
+    display: flex;
+    /* border: 20px solid black; */
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color : rgb(117, 117, 117);
 }
