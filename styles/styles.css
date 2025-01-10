@@ -92,6 +92,7 @@
 }
 
 .banner_picture {
+    margin-bottom: -18px;
     width: 584px;
     height: 586px;
     border-collapse: collapse;
