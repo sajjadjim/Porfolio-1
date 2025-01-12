@@ -15,7 +15,9 @@
     border-collapse: collapse;
     background-color: rgb(255, 248, 243);
 }
-
+.banner_picture{
+    margin-bottom: -18px;
+}
 .navigration {
     display: flex;
     align-items: center;
@@ -326,4 +328,37 @@ main {
     text-align: left;
     margin-bottom: 5px;
     margin-bottom: 10px;
+}
+
+footer{
+    margin: 120px 150px;
+}
+footer {
+    display: flex;
+}
+
+footer h1{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+footer p{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+padding-right: 117px;
+padding-top: 20px;
+padding-bottom: 23px;
+}
+footer img {
+    display: inline;
+    margin-right:15px ;
 }
