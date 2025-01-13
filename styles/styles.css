@@ -329,26 +329,28 @@ main {
     margin-bottom: 5px;
     margin-bottom: 10px;
 }
-
 footer{
+    background: rgb(255, 248, 243);
+}
+.footer{
     margin: 120px 150px;
 }
-footer {
+.footer {
     display: flex;
 }
 
-footer h1{
-    color: rgb(24, 24, 24);
-font-family: Open Sans;
+.footer h1{
+margin-top: 130px;
+margin-bottom: 30px;
+color: rgb(24, 24, 24);
 font-size: 35px;
 font-weight: 700;
 line-height: 48px;
 letter-spacing: 0%;
 text-align: center;
 }
-footer p{
-    color: rgb(71, 71, 71);
-font-family: Open Sans;
+.footer p{
+color: rgb(71, 71, 71);
 font-size: 16px;
 font-weight: 400;
 line-height: 28px;
@@ -358,7 +360,7 @@ padding-right: 117px;
 padding-top: 20px;
 padding-bottom: 23px;
 }
-footer img {
+.footer img {
     display: inline;
     margin-right:15px ;
 }
