@@ -364,3 +364,9 @@ padding-bottom: 23px;
     display: inline;
     margin-right:15px ;
 }
+
+/* responsice display create here from */
+
+.hide{
+    display: none;
+}
