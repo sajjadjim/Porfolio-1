@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+@import "tailwindcss";
 * {
     font-family: "Open Sans";
     margin: 0px;
@@ -90,6 +90,9 @@
     border: 1px solid orangered;
     color: orangered;
 }
+.dwn:hover{
+    color: #FD6E0A;
+}
 .banner_h4 {
     color: rgb(71, 71, 71);
     font-family: Open Sans;
@@ -101,7 +104,7 @@
 .banner_h1 {
     color: rgb(24, 24, 24);
     font-family: Open Sans;
-    font-size: 75px;
+    font-size: 4rem;
     font-weight: 700;
     padding-bottom: 20px;
 }
@@ -229,16 +232,17 @@ main {
 
 .section2 .card {
     display: flex;
-
 }
 
 .card_details:hover {
-    background-color: rgb(217, 249, 249);
+    transition: 3s;
+    background-color: rgb(44, 226, 226);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    cursor: pointer;  
 }
 
 .card_details {
@@ -246,6 +250,7 @@ main {
     padding: 5px;
     background-color: #ffffff;
     box-shadow: 5px 5px 10px rgb(216, 212, 212);
+    padding: 8px;
 }
 
 .card_details img {
@@ -272,6 +277,7 @@ main {
 }
 
 /* section3 css part start from here  */
+/* A summary of My Resume */
 
 .section3 {
     margin-bottom: 113px;

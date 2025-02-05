@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind file import  -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- fontawsome link up -->
+    <script src="https://kit.fontawesome.com/10a4595e8d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/styles.css">
     <title>My Portfolio</title>
     <link rel="shortcut icon" href="images/icons/icons8-person-50.png" type="image/x-icon">
@@ -10,7 +14,7 @@
 <body>
     <header class="header_picture">
             <nav class="navigration">
-            <h1 class="nav_tittle">Sajjad <span style="color:rgb(253, 110, 10) ;">JIM</span></h1>
+            <h1 class="nav_tittle">Sajjad <span class="text-orange-800">JIM</span></h1>
            <ul>
             <li><a href="">Portfolio</a></li>
             <li><a href="">Blogs</a></li>
@@ -23,7 +27,7 @@
                 <h4 class="banner_h4">Hi, I  am</h4>
                 <h1 class="banner_h1">Sajjad JIM</h1>
                 <p class="banner_p">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-                <button class="btn"><img style="margin-top: -3px;" src="images/icons/icons8-download-30.png" alt=""> Download CV</button>
+                <button class="btn"> <i class="fa-solid fa-download dwn"></i> Download CV</button>
                 <button class="btn_contact">Contact</button>
             </nav>
             <nav> <img class="banner_picture" src="images/jim.png" alt=""></nav>
@@ -57,7 +61,7 @@
       <section class="section2">
             <h1>What I do</h1>
             <p>I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
-            <div class="card">
+            <div class="card md:gap-0 gap-5">
              <div class="card_details">
                 <img src="images/icons/js.png" alt="">
                 <h4>Vanilla JavaScript</h4>
@@ -132,10 +136,10 @@
     </div>
     </main>
     <footer>
-        <div class="footer">
+        <div class="footer  justify-around">
             <div>
                 <h1>Lets Connect</h1>
-                <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <p class="text-center">Please fill out the form on this section to contact with me or call between 9:00 A.M <br> and 8.00 P.M ET, Monday through Friday.</p>
                 <div>
                     <a href=""><img src="images/icons/facebook.png" alt=""></a><a href=""><img src="images/icons/insta.png" alt=""></a><a href=""><img src="images/icons/twitter.png" alt=""></a></div>
             </div>
@@ -150,11 +154,13 @@
                 -moz-border-radius: 5px;
                 -ms-border-radius: 5px;
                 -o-border-radius: 5px;" type="email" name="" value="" placeholder="Your email">
-                <textarea style="display:block;height:64px ;margin-bottom: 24px;width: 100%;border: none;background-color: white;border-radius: 5px;-webkit-border-radius: 5px;
+                <textarea style="display:block;height:180px ;margin-bottom: 24px;width: 100%;border: none;background-color: white;border-radius: 5px;-webkit-border-radius: 5px;
                 -moz-border-radius: 5px;
                 -ms-border-radius: 5px;
                 -o-border-radius: 5px;" name="" id="" cols="30" rows="30" placeholder="your massage"></textarea>
-                <input style="margin-top: 5px;" class="btn" type="submit" value="Submit">
+                <div class="text-center">
+                    <input style="margin-top: 5px;" class="btn" type="submit" value="Submit">
+                </div>
                 </form>
             </div>
         </div>
